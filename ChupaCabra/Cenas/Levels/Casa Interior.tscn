@@ -26,14 +26,14 @@ material/0 = null
 [node name="CollisionShape" type="CollisionShape" parent="Chão/StaticBody"]
 shape = SubResource( 4 )
 
-[node name="Chão2" type="MeshInstance" parent="."]
+[node name="Teto" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, -1, 8.74228e-08, 0, -8.74228e-08, -1, 0, 4, 0 )
 mesh = SubResource( 3 )
 material/0 = null
 
-[node name="StaticBody" type="StaticBody" parent="Chão2"]
+[node name="StaticBody" type="StaticBody" parent="Teto"]
 
-[node name="CollisionShape" type="CollisionShape" parent="Chão2/StaticBody"]
+[node name="CollisionShape" type="CollisionShape" parent="Teto/StaticBody"]
 shape = SubResource( 4 )
 
 [node name="parede" type="MeshInstance" parent="."]
@@ -57,7 +57,11 @@ material/0 = null
 shape = SubResource( 4 )
 
 [node name="SpotLight" type="SpotLight" parent="."]
-transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 4, 0 )
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 3.60183, 0 )
+light_color = Color( 1, 0.980392, 0.686275, 1 )
+shadow_enabled = true
 
 [node name="NewFPSCont" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.17084, 0 )
+
+[node name="Corredor" type="Node" parent="."]
