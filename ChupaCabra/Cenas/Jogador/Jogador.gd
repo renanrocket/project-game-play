@@ -59,7 +59,7 @@ func _physics_process(delta):
 		get_tree().quit()
 	if Input.is_action_just_pressed("TravarMouse"):
 		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
-	if Input.is_action_just_pressed("TravarMouse"):
+	if Input.is_action_just_pressed("Reiniciar"):
 		get_tree().reload_current_scene()
 		
 	direction = direction.normalized()
