@@ -59,7 +59,12 @@ shape = SubResource( 4 )
 [node name="SpotLight" type="SpotLight" parent="."]
 transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 3.60183, 0 )
 light_color = Color( 1, 0.980392, 0.686275, 1 )
+light_energy = 7.649
+light_indirect_energy = 0.981
 shadow_enabled = true
+shadow_bias = 4.37
+spot_range = 4.943
+spot_attenuation = 1.46409
 
 [node name="NewFPSCont" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.17084, 0 )
