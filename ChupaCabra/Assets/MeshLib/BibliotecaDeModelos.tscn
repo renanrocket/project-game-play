@@ -1,0 +1,564 @@
+[gd_scene load_steps=141 format=2]
+
+[ext_resource path="res://Assets/Modelos/GLTF/bathroomCabinetDrawer.glb" type="PackedScene" id=1]
+[ext_resource path="res://Assets/Modelos/GLTF/bathroomSink.glb" type="PackedScene" id=2]
+[ext_resource path="res://Assets/Modelos/GLTF/bathtub.glb" type="PackedScene" id=3]
+[ext_resource path="res://Assets/Modelos/GLTF/bathroomSinkSquare.glb" type="PackedScene" id=4]
+[ext_resource path="res://Assets/Modelos/GLTF/bedSingle.glb" type="PackedScene" id=5]
+[ext_resource path="res://Assets/Modelos/GLTF/bench.glb" type="PackedScene" id=6]
+[ext_resource path="res://Assets/Modelos/GLTF/bedBunk.glb" type="PackedScene" id=7]
+[ext_resource path="res://Assets/Modelos/GLTF/bedDouble.glb" type="PackedScene" id=8]
+[ext_resource path="res://Assets/Modelos/GLTF/bathroomCabinet.glb" type="PackedScene" id=9]
+[ext_resource path="res://Assets/Modelos/GLTF/benchCushion.glb" type="PackedScene" id=10]
+[ext_resource path="res://Assets/Modelos/GLTF/benchCushionLow.glb" type="PackedScene" id=11]
+[ext_resource path="res://Assets/Modelos/GLTF/bookcaseClosedDoors.glb" type="PackedScene" id=12]
+[ext_resource path="res://Assets/Modelos/GLTF/bookcaseClosedWide.glb" type="PackedScene" id=13]
+[ext_resource path="res://Assets/Modelos/GLTF/bookcaseOpen.glb" type="PackedScene" id=14]
+[ext_resource path="res://Assets/Modelos/GLTF/bathroomMirror.glb" type="PackedScene" id=15]
+[ext_resource path="res://Assets/Modelos/GLTF/books.glb" type="PackedScene" id=16]
+[ext_resource path="res://Assets/Modelos/GLTF/cabinetBed.glb" type="PackedScene" id=17]
+[ext_resource path="res://Assets/Modelos/GLTF/cabinetBedDrawer.glb" type="PackedScene" id=18]
+[ext_resource path="res://Assets/Modelos/GLTF/bear.glb" type="PackedScene" id=19]
+[ext_resource path="res://Assets/Modelos/GLTF/cabinetBedDrawerTable.glb" type="PackedScene" id=20]
+[ext_resource path="res://Assets/Modelos/GLTF/cabinetTelevision.glb" type="PackedScene" id=21]
+[ext_resource path="res://Assets/Modelos/GLTF/cabinetTelevisionDoors.glb" type="PackedScene" id=22]
+[ext_resource path="res://Assets/Modelos/GLTF/cardboardBoxClosed.glb" type="PackedScene" id=23]
+[ext_resource path="res://Assets/Modelos/GLTF/bookcaseOpenLow.glb" type="PackedScene" id=24]
+[ext_resource path="res://Assets/Modelos/GLTF/cardboardBoxOpen.glb" type="PackedScene" id=25]
+[ext_resource path="res://Assets/Modelos/GLTF/bookcaseClosed.glb" type="PackedScene" id=26]
+[ext_resource path="res://Assets/Modelos/GLTF/ceilingFan.glb" type="PackedScene" id=27]
+[ext_resource path="res://Assets/Modelos/GLTF/chair.glb" type="PackedScene" id=28]
+[ext_resource path="res://Assets/Modelos/GLTF/chairCushion.glb" type="PackedScene" id=29]
+[ext_resource path="res://Assets/Modelos/GLTF/chairDesk.glb" type="PackedScene" id=30]
+[ext_resource path="res://Assets/Modelos/GLTF/chairModernCushion.glb" type="PackedScene" id=31]
+[ext_resource path="res://Assets/Modelos/GLTF/chairRounded.glb" type="PackedScene" id=32]
+[ext_resource path="res://Assets/Modelos/GLTF/chairModernFrameCushion.glb" type="PackedScene" id=33]
+[ext_resource path="res://Assets/Modelos/GLTF/coatRackStanding.glb" type="PackedScene" id=34]
+[ext_resource path="res://Assets/Modelos/GLTF/computerKeyboard.glb" type="PackedScene" id=35]
+[ext_resource path="res://Assets/Modelos/GLTF/computerMouse.glb" type="PackedScene" id=36]
+[ext_resource path="res://Assets/Modelos/GLTF/computerScreen.glb" type="PackedScene" id=37]
+[ext_resource path="res://Assets/Modelos/GLTF/desk.glb" type="PackedScene" id=38]
+[ext_resource path="res://Assets/Modelos/GLTF/deskCorner.glb" type="PackedScene" id=39]
+[ext_resource path="res://Assets/Modelos/GLTF/doorway.glb" type="PackedScene" id=40]
+[ext_resource path="res://Assets/Modelos/GLTF/coatRack.glb" type="PackedScene" id=41]
+[ext_resource path="res://Assets/Modelos/GLTF/pillow.glb" type="PackedScene" id=42]
+[ext_resource path="res://Assets/Modelos/GLTF/loungeChairRelax.glb" type="PackedScene" id=43]
+[ext_resource path="res://Assets/Modelos/GLTF/floorFull.glb" type="PackedScene" id=44]
+[ext_resource path="res://Assets/Modelos/GLTF/loungeSofa.glb" type="PackedScene" id=45]
+[ext_resource path="res://Assets/Modelos/GLTF/doorwayOpen.glb" type="PackedScene" id=46]
+[ext_resource path="res://Assets/Modelos/GLTF/hoodModern.glb" type="PackedScene" id=47]
+[ext_resource path="res://Assets/Modelos/GLTF/kitchenCabinetCornerInner.glb" type="PackedScene" id=48]
+[ext_resource path="res://Assets/Modelos/GLTF/lampSquareTable.glb" type="PackedScene" id=49]
+[ext_resource path="res://Assets/Modelos/GLTF/floorCorner.glb" type="PackedScene" id=50]
+[ext_resource path="res://Assets/Modelos/GLTF/lampRoundFloor.glb" type="PackedScene" id=51]
+[ext_resource path="res://Assets/Modelos/GLTF/loungeChair.glb" type="PackedScene" id=52]
+[ext_resource path="res://Assets/Modelos/GLTF/loungeDesignChair.glb" type="PackedScene" id=53]
+[ext_resource path="res://Assets/Modelos/GLTF/loungeDesignSofa.glb" type="PackedScene" id=54]
+[ext_resource path="res://Assets/Modelos/GLTF/loungeSofaCorner.glb" type="PackedScene" id=55]
+[ext_resource path="res://Assets/Modelos/GLTF/pillowBlue.glb" type="PackedScene" id=56]
+[ext_resource path="res://Assets/Modelos/GLTF/pillowLong.glb" type="PackedScene" id=57]
+[ext_resource path="res://Assets/Modelos/GLTF/plantSmall3.glb" type="PackedScene" id=58]
+[ext_resource path="res://Assets/Modelos/GLTF/pottedPlant.glb" type="PackedScene" id=59]
+[ext_resource path="res://Assets/Modelos/GLTF/rugRectangle.glb" type="PackedScene" id=60]
+[ext_resource path="res://Assets/Modelos/GLTF/rugRound.glb" type="PackedScene" id=61]
+[ext_resource path="res://Assets/Modelos/GLTF/kitchenCabinetCornerRound.glb" type="PackedScene" id=62]
+[ext_resource path="res://Assets/Modelos/GLTF/rugSquare.glb" type="PackedScene" id=63]
+[ext_resource path="res://Assets/Modelos/GLTF/shower.glb" type="PackedScene" id=64]
+[ext_resource path="res://Assets/Modelos/GLTF/kitchenCoffeeMachine.glb" type="PackedScene" id=65]
+[ext_resource path="res://Assets/Modelos/GLTF/kitchenFridge.glb" type="PackedScene" id=66]
+[ext_resource path="res://Assets/Modelos/GLTF/floorCornerRound.glb" type="PackedScene" id=67]
+[ext_resource path="res://Assets/Modelos/GLTF/kitchenBarEnd.glb" type="PackedScene" id=68]
+[ext_resource path="res://Assets/Modelos/GLTF/doorwayFront.glb" type="PackedScene" id=69]
+[ext_resource path="res://Assets/Modelos/GLTF/plantSmall1.glb" type="PackedScene" id=70]
+[ext_resource path="res://Assets/Modelos/GLTF/kitchenCabinetUpperDouble.glb" type="PackedScene" id=71]
+[ext_resource path="res://Assets/Modelos/GLTF/kitchenFridgeBuiltIn.glb" type="PackedScene" id=72]
+[ext_resource path="res://Assets/Modelos/GLTF/kitchenStoveElectric.glb" type="PackedScene" id=73]
+[ext_resource path="res://Assets/Modelos/GLTF/kitchenCabinetUpper.glb" type="PackedScene" id=74]
+[ext_resource path="res://Assets/Modelos/GLTF/showerRound.glb" type="PackedScene" id=75]
+[ext_resource path="res://Assets/Modelos/GLTF/sideTable.glb" type="PackedScene" id=76]
+[ext_resource path="res://Assets/Modelos/GLTF/sideTableDrawers.glb" type="PackedScene" id=77]
+[ext_resource path="res://Assets/Modelos/GLTF/hoodLarge.glb" type="PackedScene" id=78]
+[ext_resource path="res://Assets/Modelos/GLTF/kitchenBar.glb" type="PackedScene" id=79]
+[ext_resource path="res://Assets/Modelos/GLTF/kitchenCabinet.glb" type="PackedScene" id=80]
+[ext_resource path="res://Assets/Modelos/GLTF/lampSquareFloor.glb" type="PackedScene" id=81]
+[ext_resource path="res://Assets/Modelos/GLTF/loungeDesignSofaCorner.glb" type="PackedScene" id=82]
+[ext_resource path="res://Assets/Modelos/GLTF/rugDoormat.glb" type="PackedScene" id=83]
+[ext_resource path="res://Assets/Modelos/GLTF/kitchenFridgeSmall.glb" type="PackedScene" id=84]
+[ext_resource path="res://Assets/Modelos/GLTF/kitchenCabinetDrawer.glb" type="PackedScene" id=85]
+[ext_resource path="res://Assets/Modelos/GLTF/kitchenBlender.glb" type="PackedScene" id=86]
+[ext_resource path="res://Assets/Modelos/GLTF/kitchenFridgeLarge.glb" type="PackedScene" id=87]
+[ext_resource path="res://Assets/Modelos/GLTF/kitchenStove.glb" type="PackedScene" id=88]
+[ext_resource path="res://Assets/Modelos/GLTF/lampWall.glb" type="PackedScene" id=89]
+[ext_resource path="res://Assets/Modelos/GLTF/laptop.glb" type="PackedScene" id=90]
+[ext_resource path="res://Assets/Modelos/GLTF/loungeSofaOttoman.glb" type="PackedScene" id=91]
+[ext_resource path="res://Assets/Modelos/GLTF/pillowBlueLong.glb" type="PackedScene" id=92]
+[ext_resource path="res://Assets/Modelos/GLTF/plantSmall2.glb" type="PackedScene" id=93]
+[ext_resource path="res://Assets/Modelos/GLTF/lampSquareCeiling.glb" type="PackedScene" id=94]
+[ext_resource path="res://Assets/Modelos/GLTF/kitchenSink.glb" type="PackedScene" id=95]
+[ext_resource path="res://Assets/Modelos/GLTF/loungeSofaLong.glb" type="PackedScene" id=96]
+[ext_resource path="res://Assets/Modelos/GLTF/radio.glb" type="PackedScene" id=97]
+[ext_resource path="res://Assets/Modelos/GLTF/rugRounded.glb" type="PackedScene" id=98]
+[ext_resource path="res://Assets/Modelos/GLTF/kitchenMicrowave.glb" type="PackedScene" id=99]
+[ext_resource path="res://Assets/Modelos/GLTF/floorHalf.glb" type="PackedScene" id=100]
+[ext_resource path="res://Assets/Modelos/GLTF/kitchenCabinetUpperCorner.glb" type="PackedScene" id=101]
+[ext_resource path="res://Assets/Modelos/GLTF/lampRoundTable.glb" type="PackedScene" id=102]
+[ext_resource path="res://Assets/Modelos/GLTF/dryer.glb" type="PackedScene" id=103]
+[ext_resource path="res://Assets/Modelos/GLTF/kitchenCabinetUpperLow.glb" type="PackedScene" id=104]
+[ext_resource path="res://Assets/Modelos/GLTF/paneling.glb" type="PackedScene" id=105]
+[ext_resource path="res://Assets/Modelos/GLTF/speaker.glb" type="PackedScene" id=106]
+[ext_resource path="res://Assets/Modelos/GLTF/stoolBar.glb" type="PackedScene" id=107]
+[ext_resource path="res://Assets/Modelos/GLTF/stairsCorner.glb" type="PackedScene" id=108]
+[ext_resource path="res://Assets/Modelos/GLTF/stairs.glb" type="PackedScene" id=109]
+[ext_resource path="res://Assets/Modelos/GLTF/stairsOpen.glb" type="PackedScene" id=110]
+[ext_resource path="res://Assets/Modelos/GLTF/speakerSmall.glb" type="PackedScene" id=111]
+[ext_resource path="res://Assets/Modelos/GLTF/stairsOpenSingle.glb" type="PackedScene" id=112]
+[ext_resource path="res://Assets/Modelos/GLTF/stoolBarSquare.glb" type="PackedScene" id=113]
+[ext_resource path="res://Assets/Modelos/GLTF/table.glb" type="PackedScene" id=114]
+[ext_resource path="res://Assets/Modelos/GLTF/tableCloth.glb" type="PackedScene" id=115]
+[ext_resource path="res://Assets/Modelos/GLTF/tableCoffee.glb" type="PackedScene" id=116]
+[ext_resource path="res://Assets/Modelos/GLTF/washerDryerStacked.glb" type="PackedScene" id=117]
+[ext_resource path="res://Assets/Modelos/GLTF/tableCoffeeGlassSquare.glb" type="PackedScene" id=118]
+[ext_resource path="res://Assets/Modelos/GLTF/tableRound.glb" type="PackedScene" id=119]
+[ext_resource path="res://Assets/Modelos/GLTF/toaster.glb" type="PackedScene" id=120]
+[ext_resource path="res://Assets/Modelos/GLTF/tableCross.glb" type="PackedScene" id=121]
+[ext_resource path="res://Assets/Modelos/GLTF/washer.glb" type="PackedScene" id=122]
+[ext_resource path="res://Assets/Modelos/GLTF/toilet.glb" type="PackedScene" id=123]
+[ext_resource path="res://Assets/Modelos/GLTF/wallCorner.glb" type="PackedScene" id=124]
+[ext_resource path="res://Assets/Modelos/GLTF/trashcan.glb" type="PackedScene" id=125]
+[ext_resource path="res://Assets/Modelos/GLTF/wallDoorway.glb" type="PackedScene" id=126]
+[ext_resource path="res://Assets/Modelos/GLTF/tableCoffeeSquare.glb" type="PackedScene" id=127]
+[ext_resource path="res://Assets/Modelos/GLTF/wallWindowSlide.glb" type="PackedScene" id=128]
+[ext_resource path="res://Assets/Modelos/GLTF/televisionVintage.glb" type="PackedScene" id=129]
+[ext_resource path="res://Assets/Modelos/GLTF/wallCornerRond.glb" type="PackedScene" id=130]
+[ext_resource path="res://Assets/Modelos/GLTF/televisionModern.glb" type="PackedScene" id=131]
+[ext_resource path="res://Assets/Modelos/GLTF/tableCoffeeGlass.glb" type="PackedScene" id=132]
+[ext_resource path="res://Assets/Modelos/GLTF/tableCrossCloth.glb" type="PackedScene" id=133]
+[ext_resource path="res://Assets/Modelos/GLTF/tableGlass.glb" type="PackedScene" id=134]
+[ext_resource path="res://Assets/Modelos/GLTF/televisionAntenna.glb" type="PackedScene" id=135]
+[ext_resource path="res://Assets/Modelos/GLTF/toiletSquare.glb" type="PackedScene" id=136]
+[ext_resource path="res://Assets/Modelos/GLTF/wallHalf.glb" type="PackedScene" id=137]
+[ext_resource path="res://Assets/Modelos/GLTF/wallWindow.glb" type="PackedScene" id=138]
+[ext_resource path="res://Assets/Modelos/GLTF/wallDoorwayWide.glb" type="PackedScene" id=139]
+[ext_resource path="res://Assets/Modelos/GLTF/wall.glb" type="PackedScene" id=140]
+
+[node name="BibliotecaDeModelos" type="Spatial"]
+
+[node name="bathroomCabinet" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="bathroomCabinetDrawer" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="bathroomMirror" parent="." instance=ExtResource( 15 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="bathroomSink" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="bathroomSinkSquare" parent="." instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="bathtub" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="bear" parent="." instance=ExtResource( 19 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="bedBunk" parent="." instance=ExtResource( 7 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="bedDouble" parent="." instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="bedSingle" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="bench" parent="." instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="benchCushion" parent="." instance=ExtResource( 10 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="benchCushionLow" parent="." instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="bookcaseClosed" parent="." instance=ExtResource( 26 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="bookcaseClosedDoors" parent="." instance=ExtResource( 12 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="bookcaseClosedWide" parent="." instance=ExtResource( 13 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="bookcaseOpen" parent="." instance=ExtResource( 14 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="bookcaseOpenLow" parent="." instance=ExtResource( 24 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="books" parent="." instance=ExtResource( 16 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="cabinetBed" parent="." instance=ExtResource( 17 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="cabinetBedDrawer" parent="." instance=ExtResource( 18 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="cabinetBedDrawerTable" parent="." instance=ExtResource( 20 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="cabinetTelevision" parent="." instance=ExtResource( 21 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="cabinetTelevisionDoors" parent="." instance=ExtResource( 22 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="cardboardBoxClosed" parent="." instance=ExtResource( 23 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="cardboardBoxOpen" parent="." instance=ExtResource( 25 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="ceilingFan" parent="." instance=ExtResource( 27 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="chair" parent="." instance=ExtResource( 28 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="chairCushion" parent="." instance=ExtResource( 29 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="chairDesk" parent="." instance=ExtResource( 30 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="chairModernCushion" parent="." instance=ExtResource( 31 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="chairModernFrameCushion" parent="." instance=ExtResource( 33 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="chairRounded" parent="." instance=ExtResource( 32 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="coatRack" parent="." instance=ExtResource( 41 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="coatRackStanding" parent="." instance=ExtResource( 34 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="computerKeyboard" parent="." instance=ExtResource( 35 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="computerMouse" parent="." instance=ExtResource( 36 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="computerScreen" parent="." instance=ExtResource( 37 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="desk" parent="." instance=ExtResource( 38 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="deskCorner" parent="." instance=ExtResource( 39 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="doorway" parent="." instance=ExtResource( 40 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="doorwayFront" parent="." instance=ExtResource( 69 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="doorwayOpen" parent="." instance=ExtResource( 46 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="dryer" parent="." instance=ExtResource( 103 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="floorCorner" parent="." instance=ExtResource( 50 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="floorCornerRound" parent="." instance=ExtResource( 67 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="floorFull" parent="." instance=ExtResource( 44 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="floorHalf" parent="." instance=ExtResource( 100 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="hoodLarge" parent="." instance=ExtResource( 78 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="hoodModern" parent="." instance=ExtResource( 47 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="kitchenBar" parent="." instance=ExtResource( 79 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="kitchenBarEnd" parent="." instance=ExtResource( 68 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="kitchenBlender" parent="." instance=ExtResource( 86 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="kitchenCabinet" parent="." instance=ExtResource( 80 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="kitchenCabinetCornerInner" parent="." instance=ExtResource( 48 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="kitchenCabinetCornerRound" parent="." instance=ExtResource( 62 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="kitchenCabinetDrawer" parent="." instance=ExtResource( 85 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="kitchenCabinetUpper" parent="." instance=ExtResource( 74 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="kitchenCabinetUpperCorner" parent="." instance=ExtResource( 101 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="kitchenCabinetUpperDouble" parent="." instance=ExtResource( 71 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="kitchenCabinetUpperLow" parent="." instance=ExtResource( 104 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="kitchenCoffeeMachine" parent="." instance=ExtResource( 65 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="kitchenFridge" parent="." instance=ExtResource( 66 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="kitchenFridgeBuiltIn" parent="." instance=ExtResource( 72 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="kitchenFridgeLarge" parent="." instance=ExtResource( 87 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="kitchenFridgeSmall" parent="." instance=ExtResource( 84 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="kitchenMicrowave" parent="." instance=ExtResource( 99 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="kitchenSink" parent="." instance=ExtResource( 95 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="kitchenStove" parent="." instance=ExtResource( 88 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="kitchenStoveElectric" parent="." instance=ExtResource( 73 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="lampRoundFloor" parent="." instance=ExtResource( 51 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="lampRoundTable" parent="." instance=ExtResource( 102 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="lampSquareCeiling" parent="." instance=ExtResource( 94 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="lampSquareFloor" parent="." instance=ExtResource( 81 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="lampSquareTable" parent="." instance=ExtResource( 49 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="lampWall" parent="." instance=ExtResource( 89 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="laptop" parent="." instance=ExtResource( 90 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="loungeChair" parent="." instance=ExtResource( 52 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="loungeChairRelax" parent="." instance=ExtResource( 43 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="loungeDesignChair" parent="." instance=ExtResource( 53 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="loungeDesignSofa" parent="." instance=ExtResource( 54 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="loungeDesignSofaCorner" parent="." instance=ExtResource( 82 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="loungeSofa" parent="." instance=ExtResource( 45 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="loungeSofaCorner" parent="." instance=ExtResource( 55 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="loungeSofaLong" parent="." instance=ExtResource( 96 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="loungeSofaOttoman" parent="." instance=ExtResource( 91 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="paneling" parent="." instance=ExtResource( 105 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="pillow" parent="." instance=ExtResource( 42 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="pillowBlue" parent="." instance=ExtResource( 56 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="pillowBlueLong" parent="." instance=ExtResource( 92 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="pillowLong" parent="." instance=ExtResource( 57 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="plantSmall1" parent="." instance=ExtResource( 70 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="plantSmall2" parent="." instance=ExtResource( 93 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="plantSmall3" parent="." instance=ExtResource( 58 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="pottedPlant" parent="." instance=ExtResource( 59 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="radio" parent="." instance=ExtResource( 97 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="rugDoormat" parent="." instance=ExtResource( 83 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="rugRectangle" parent="." instance=ExtResource( 60 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="rugRound" parent="." instance=ExtResource( 61 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="rugRounded" parent="." instance=ExtResource( 98 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="rugSquare" parent="." instance=ExtResource( 63 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="shower" parent="." instance=ExtResource( 64 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="showerRound" parent="." instance=ExtResource( 75 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="sideTable" parent="." instance=ExtResource( 76 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="sideTableDrawers" parent="." instance=ExtResource( 77 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="speaker" parent="." instance=ExtResource( 106 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="speakerSmall" parent="." instance=ExtResource( 111 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="stairs" parent="." instance=ExtResource( 109 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="stairsCorner" parent="." instance=ExtResource( 108 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="stairsOpen" parent="." instance=ExtResource( 110 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="stairsOpenSingle" parent="." instance=ExtResource( 112 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="stoolBar" parent="." instance=ExtResource( 107 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="stoolBarSquare" parent="." instance=ExtResource( 113 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="table" parent="." instance=ExtResource( 114 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="tableCloth" parent="." instance=ExtResource( 115 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="tableCoffee" parent="." instance=ExtResource( 116 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="tableCoffeeGlass" parent="." instance=ExtResource( 132 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="tableCoffeeGlassSquare" parent="." instance=ExtResource( 118 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="tableCoffeeSquare" parent="." instance=ExtResource( 127 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="tableCross" parent="." instance=ExtResource( 121 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="tableCrossCloth" parent="." instance=ExtResource( 133 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="tableGlass" parent="." instance=ExtResource( 134 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="tableRound" parent="." instance=ExtResource( 119 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="televisionAntenna" parent="." instance=ExtResource( 135 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="televisionModern" parent="." instance=ExtResource( 131 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="televisionVintage" parent="." instance=ExtResource( 129 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="toaster" parent="." instance=ExtResource( 120 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="toilet" parent="." instance=ExtResource( 123 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="toiletSquare" parent="." instance=ExtResource( 136 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="trashcan" parent="." instance=ExtResource( 125 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="wall" parent="." instance=ExtResource( 140 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="wallCorner" parent="." instance=ExtResource( 124 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="wallCornerRond" parent="." instance=ExtResource( 130 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="wallDoorway" parent="." instance=ExtResource( 126 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="wallDoorwayWide" parent="." instance=ExtResource( 139 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="wallHalf" parent="." instance=ExtResource( 137 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="wallWindow" parent="." instance=ExtResource( 138 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="wallWindowSlide" parent="." instance=ExtResource( 128 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="washer" parent="." instance=ExtResource( 122 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
+
+[node name="washerDryerStacked" parent="." instance=ExtResource( 117 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9115, -33.3082, -22.4977 )
