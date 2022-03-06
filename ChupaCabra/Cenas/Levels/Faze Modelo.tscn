@@ -1,0 +1,78 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Assets/MeshLib/BibliotecaDeModelos.tres" type="MeshLibrary" id=1]
+[ext_resource path="res://Cenas/Jogador/Jogador.tscn" type="PackedScene" id=2]
+
+[sub_resource type="ProceduralSky" id=1]
+sun_color = Color( 0.203922, 0.227451, 0.294118, 1 )
+sun_curve = 0.17411
+
+[sub_resource type="Environment" id=2]
+background_mode = 1
+background_sky = SubResource( 1 )
+
+[sub_resource type="BoxShape" id=3]
+extents = Vector3( 6.19752, 0.0968482, 2.40309 )
+
+[node name="Faze Modelo" type="WorldEnvironment"]
+environment = SubResource( 2 )
+
+[node name="Chão" type="GridMap" parent="."]
+mesh_library = ExtResource( 1 )
+cell_size = Vector3( 0.5, 0.5, 0.5 )
+data = {
+"cells": PoolIntArray( 0, 65525, 1441838, 2, 65525, 1441838, 4, 65525, 1441838, 5, 65525, 1441838, 6, 65525, 1441838, 65534, 65525, 1441838, 0, 65527, 1441838, 2, 65527, 1441838, 4, 65527, 1441838, 6, 65527, 1441838, 65530, 65527, 46, 65532, 65527, 46, 65534, 65527, 1441838, 0, 65529, 1441838, 2, 65529, 1441838, 4, 65529, 1441838, 6, 65529, 1441838, 65530, 65529, 46, 65532, 65529, 46, 65534, 65529, 1441838, 0, 65531, 1441838, 2, 65531, 1441838, 4, 65531, 1441838, 6, 65531, 1441838, 65530, 65531, 46, 65532, 65531, 46, 65534, 65531, 1441838, 0, 65533, 1441838, 2, 65533, 1441838, 4, 65533, 1441838, 6, 65533, 1441838, 65530, 65533, 46, 65532, 65533, 46, 65534, 65533, 1441838, 65530, 65535, 46, 65532, 65535, 46 )
+}
+__meta__ = {
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, 0, 0 )
+}
+
+[node name="Paredes" type="GridMap" parent="."]
+mesh_library = ExtResource( 1 )
+cell_size = Vector3( 0.5, 0.5, 0.5 )
+data = {
+"cells": PoolIntArray( 0, 65525, 655490, 2, 65525, 655490, 4, 65525, 655490, 6, 65525, 655490, 8, 65525, 655490, 65534, 65525, 1441922, 5, 65526, 13, 65534, 65526, 1441922, 8, 65527, 1048706, 65534, 65527, 1441922, 8, 65529, 1048706, 65534, 65529, 1441928, 8, 65530, 1048706, 8, 65531, 1048706, 65534, 65531, 1441922, 8, 65532, 1048706, 8, 65533, 1048706, 65534, 65533, 1441925, 8, 65534, 1048706, 0, 65535, 130, 1, 65535, 130, 3, 65535, 130, 4, 65535, 130, 5, 65535, 130, 6, 65535, 130, 8, 65535, 1048706, 65534, 65535, 130 )
+}
+__meta__ = {
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, 0, 0 )
+}
+
+[node name="GridMap3" type="GridMap" parent="."]
+mesh_library = ExtResource( 1 )
+cell_size = Vector3( 0.5, 0.5, 0.5 )
+data = {
+"cells": PoolIntArray( 9, 280, 655485, 5, 65531, 84, 5, 65533, 655476 )
+}
+__meta__ = {
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, 0, 0 )
+}
+
+[node name="DirectionalLight" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 2.65469, 1.73291, -3.87183 )
+light_color = Color( 0.819608, 0.819608, 0.635294, 1 )
+spot_attenuation = 1.56917
+spot_angle_attenuation = 0.517632
+
+[node name="DirectionalLight3" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -1.75859, 1.73291, -3.87183 )
+light_color = Color( 0.819608, 0.819608, 0.635294, 1 )
+spot_attenuation = 1.56917
+spot_angle_attenuation = 0.517632
+
+[node name="DirectionalLight2" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0.525602, 1.73291, -3.87183 )
+light_color = Color( 0.819608, 0.819608, 0.635294, 1 )
+spot_attenuation = 1.56917
+spot_angle_attenuation = 0.517632
+
+[node name="Colisor" type="StaticBody" parent="."]
+
+[node name="CollisionShape" type="CollisionShape" parent="Colisor"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.96481, 0.343029, -2.84545 )
+shape = SubResource( 3 )
+
+[node name="NewFPSCont" parent="." instance=ExtResource( 2 )]
+transform = Transform( 0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 1.72693, 1.38309, -2.5755 )
