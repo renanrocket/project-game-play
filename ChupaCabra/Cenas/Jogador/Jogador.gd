@@ -1,15 +1,15 @@
 extends KinematicBody
 
-var speed = 5
+var speed =1
 
 var h_acceleration = 3
-var air_acceleration = .5
-var normal_acceleration = 2
+var air_acceleration = .2
+var normal_acceleration = 1.5
 var gravity = 10
-var jump = 5
+var jump = 2
 var full_contact = false
 
-var mouse_sensitivity = 0.05
+var mouse_sensitivity = 0.1
 
 var direction = Vector3()
 var h_velocity = Vector3()

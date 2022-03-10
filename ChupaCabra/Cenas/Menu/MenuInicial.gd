@@ -13,7 +13,7 @@ func _ready():
 
 
 func _on_Jogar_button_down():
-	get_tree().change_scene("res://Cenas/Levels/Casa Interior.tscn")
+	get_tree().change_scene("res://Cenas/Levels/Faze Modelo.tscn")
 
 
 func _on_Opes_button_down():

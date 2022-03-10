@@ -20,6 +20,6 @@ data = {
 "cells": PoolIntArray( 9, 280, 655485, 5, 65531, 84, 5, 65533, 655476 )
 }
 
-[node name="DirectionalLight4" type="DirectionalLight" parent="." index="6"]
+[node name="DirectionalLight4" parent="." index="6"]
 transform = Transform( 1, 0, 0, 0, 0.664161, 0.74759, 0, -0.74759, 0.664161, 0, 3.36866, 0 )
 light_energy = 0.209
