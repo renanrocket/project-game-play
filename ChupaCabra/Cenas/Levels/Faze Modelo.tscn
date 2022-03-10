@@ -104,7 +104,7 @@ transform = Transform( 0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 1.72693, 1.10249, -1.190
 
 [node name="DirectionalLight4" type="DirectionalLight" parent="Luzes"]
 transform = Transform( 1, 0, 0, 0, 0.963752, 0.266801, 0, -0.266801, 0.963752, 0, 3.64503, 0 )
-light_energy = 0.2
+light_energy = 0.1
 
 [node name="Lampada" type="SpotLight" parent="Luzes"]
 transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 2.65469, 3.66661, -3.87183 )
