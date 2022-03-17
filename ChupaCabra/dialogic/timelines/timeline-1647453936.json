@@ -1,0 +1,21 @@
+{
+	"events": [
+		{
+			"character": "character-1647453888.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tomas coragem e luta contra teus medos."
+		},
+		{
+			"character": "character-1647453879.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tolo, já te falei que não vou limpar o banheiro.  : ( "
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4",
+		"file": "timeline-1647453936.json",
+		"name": "Conversa Informal"
+	}
+}
